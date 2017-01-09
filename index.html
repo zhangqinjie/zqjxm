@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<!--视窗--><!--device设备--><!--initial初始化--><!--lt_less than小于-->
+		<title></title>
+		
+		
+
+		<style type="text/css">
+			html{font-size: 62.5%;}
+			/*max-width     	   针对PC
+			min-width
+			max-device-width   针对移动设备
+			min-device-width*/
+			@media screen and (max-width: 500px) {
+				body{
+					background: blue;
+					color: #fff;
+					font-size: 5rem;
+				}
+				p{}
+				div{}
+			}
+			@media screen and (min-width:500px) and (max-width:800px){
+				body{
+					background: red;
+					color: #ff0;
+					font-size: 10rem;
+				}
+			}
+			@media screen and (min-width:800px) and (max-width:1100px){
+				body{
+					background: green;
+					color: black;
+					font-size: 15rem;
+				}
+			}
+			@media screen and (min-width:1025px){
+				body{
+					background: gray;
+					color: black;
+					font-size: 15rem;
+				}
+			}
+			/*注意网页不要随意放大缩小*/
+			/*and左右都有空格*/
+		</style>
+		
+		
+		<!--[if lt IE 9]>
+			<script src="respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		1234567890
+	</body>
+</html>
